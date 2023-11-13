@@ -13,3 +13,65 @@
  *= require_tree .
  *= require_self
  */
+
+/* Body styles */
+body {
+  font-family: 'Comic Sans MS', cursive;
+  background-color: #fbd3e9; /* Light pink background */
+  margin: 20px;
+}
+
+/* Form styles */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff5e1; /* Light yellow background for the form */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Input styles */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 2px solid #ff85a2; /* Pink border */
+  border-radius: 6px;
+  background-color: #fff; /* White background */
+  color: #555; /* Dark gray text */
+}
+
+/* Submit button styles */
+input[type="submit"] {
+  background-color: #ff577f; /* Dark pink button color */
+  color: #fff; /* White text */
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+input[type="submit"]:hover {
+  background-color: #ff2b5e; /* Darker pink on hover */
+}
+
+/* Answer styles */
+p {
+  margin-bottom: 15px;
+  font-size: 1.2em;
+  color: #555; /* Dark gray text */
+}
+
+/* Link styles */
+a {
+  color: #ff577f; /* Pink link color */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #ff2b5e; /* Darker pink on hover */
+}
